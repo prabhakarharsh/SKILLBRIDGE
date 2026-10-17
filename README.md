@@ -11,6 +11,9 @@ A verified, campus-only peer network where students get quick skill help and fin
 </div>
 
 ---
+<img width="1917" height="1078" alt="Screenshot 2026-10-17 105003" src="https://github.com/user-attachments/assets/4a09b80d-5b40-4cdb-b6a8-db189837f5ea" />
+
+<img width="1917" height="1078" alt="image" src="https://github.com/user-attachments/assets/801c91d2-dc83-49cd-8924-6c4aad983d71" />
 
 ## 📌 Overview
 
