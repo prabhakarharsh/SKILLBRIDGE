@@ -1,0 +1,14 @@
+{
+  "version": "v1",
+  "hooks": [
+    {
+      "name": "Start Dev Servers on Session Start",
+      "trigger": "SessionStart",
+      "description": "Automatically starts the Next.js frontend and Express backend whenever a Kiro session begins.",
+      "action": {
+        "type": "command",
+        "command": "Start-Process -NoNewWindow -FilePath \"cmd\" -ArgumentList \"/c\", \"cd `\"c:\\vibe coding school\\skill\\frontend`\" && npm run dev\" ; Start-Process -NoNewWindow -FilePath \"cmd\" -ArgumentList \"/c\", \"cd `\"c:\\vibe coding school\\skill\\backend`\" && npm run dev\""
+      }
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "version": "v1",
+  "hooks": [
+    {
+      "name": "Auto Restart Dev Servers on File Save",
+      "trigger": "PostFileSave",
+      "description": "Notifies after file saves. Next.js HMR auto-reloads the browser; backend uses --watch so it restarts itself.",
+      "matcher": "\\.(tsx?|jsx?|css|json|mjs)$",
+      "action": {
+        "type": "command",
+        "command": "echo \"File saved — dev servers are running (Next.js HMR handles frontend reloads automatically)\""
+      }
+    }
+  ]
+}
